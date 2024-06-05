@@ -44,3 +44,118 @@ body {
     left: auto;
     text-align: left;
 }
+
+/* Hero Section */
+.main-content {
+    background-color: var(--warna-utama);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.hero-tagline h1 {
+    font-weight: 800;
+    font-size: 64px;
+    width: 546px;
+    line-height: 75px;
+}
+
+.hero-tagline p {
+    font-weight: 400;
+    font-size: 20px;
+    width: 620px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.best-selling {
+    padding: 80px;
+}
+
+.best-selling-tagline h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.best-selling-tagline p{
+    color: #474443;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* login/register */
+.container-fluid {
+    height: 100vh;
+}
+
+.row {
+    height: 100%;
+}
+
+.image-section {
+    background-image: url('../img/side-login.png'); 
+    background-size: contain;
+    background-position: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+
+.btn-custom {
+    background-color: #64DBFB;
+    border-color: #64DBFB;
+    color: white;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #5CC9E8;
+    border-color: #5CC9E8;
+}
+
+
+.input-group-text {
+    cursor: pointer;
+}
