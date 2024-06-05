@@ -42,3 +42,61 @@ body {
     left: auto;
     text-align: left;
 }
+
+/* Login User */
+.container-fluid {
+    height: 100vh;
+}
+
+.row {
+    height: 100%;
+}
+
+.image-section { 
+    background-image: url('../img/side-login.png'); 
+    background-size: contain;
+    background-position: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.btn-custom {
+    background-color: #64DBFB;
+    border-color: #64DBFB;
+    color: white;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #5CC9E8;
+    border-color: #5CC9E8;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    text-decoration: underline;
+}
+.input-group-text {
+    cursor: pointer;
+}
+/* End Login User */
